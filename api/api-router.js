@@ -17,8 +17,7 @@ router.get("/shouts", (req, res, next) => {
     .then(shouts => {
       res.status(200).json({ 
         motd: process.env.MOTD,
-         shouts,
-        });
+         shouts,});
     })
     .catch(error => next(error));
 });
