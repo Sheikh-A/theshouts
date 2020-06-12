@@ -11,4 +11,6 @@ server.listen(port, () => {
 
 
 //On Package.json need to add this for Heroku:
-// "start": "node index.js" 
+// "start": "node index.js"  Heroku looks for this npm start
+
+//code committ push, Heroku deploys
