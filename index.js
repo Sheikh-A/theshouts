@@ -1,3 +1,4 @@
+require('dotenv').config(); // read from a .env file located at the root of the project
 const server = require("./api/server.js");
 
 
